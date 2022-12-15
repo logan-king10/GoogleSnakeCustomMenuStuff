@@ -111,7 +111,7 @@ window.snake.more_menu = function() {
   img.height = 47;
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
-
+  
   // bullet
   img = new Image;
   img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Bullet.png?raw=true';
