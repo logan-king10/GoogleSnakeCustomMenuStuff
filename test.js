@@ -112,11 +112,11 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
   
-    // soslow
+    // sooooslow
   img = new Image;
   img.src = 'https://trafficticketteam.com/wp-content/uploads/2015/03/ladydrivingticketteam-resized-6002.png';
-  img.width = 47;
-  img.height = 47;
+  img.width = 50;
+  img.height = 50;
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
   
