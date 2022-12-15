@@ -621,7 +621,7 @@ window.snake.more_menu = function() {
         c.replace(
           dec,
           `${dec.match(/f\.[a-zA-Z0-9_$]{1,8}/)} = {
-            width: (${beeeeeeaniebaby}) === 3 ? 5 : (${beeeeeeaniebaby}) === 4 ? 7 : (${beeeeeeaniebaby}) === 5 ? 12 : (${beeeeeeaniebaby}) === 6 ? 37 : (${beeeeeeaniebaby}) === 7 ? 64 : (${beeeeeeaniebaby}) === 8 ? 105 : (${beeeeeeaniebaby}) === 9 ? 168 : (${beeeeeeaniebaby}) === 10 ? 600 : (${beeeeeeaniebaby}) === 11 ? 10 : Math.floor(b/${wa}),
+            width: (${beeeeeeaniebaby}) === 3 ? 5 : (${beeeeeeaniebaby}) === 4 ? 7 : (${beeeeeeaniebaby}) === 5 ? 12 : (${beeeeeeaniebaby}) === 6 ? 37 : (${beeeeeeaniebaby}) === 7 ? 64 : (${beeeeeeaniebaby}) === 8 ? 105 : (${beeeeeeaniebaby}) === 9 ? 168 : (${beeeeeeaniebaby}) === 10 ? 600 : (${beeeeeeaniebaby}) === 11 ? 50 : Math.floor(b/${wa}),
             height: (${beeeeeeaniebaby}) === 3 ? 4 : (${beeeeeeaniebaby}) === 4 ? 6 : (${beeeeeeaniebaby}) === 5 ? 11 : (${beeeeeeaniebaby}) === 6 ? 32 : (${beeeeeeaniebaby}) === 7 ? 56 : (${beeeeeeaniebaby}) === 8 ? 92  : (${beeeeeeaniebaby}) === 9 ? 147 : (${beeeeeeaniebaby}) === 10 ? 530 : (${beeeeeeaniebaby}) === 11 ? 5 : Math.floor(c/${wa})
           });
           let squareSize = 600 / (${dec.match(/f\.[a-zA-Z0-9_$]{1,8}/)}).width;
