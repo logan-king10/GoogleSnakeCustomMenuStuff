@@ -1,3 +1,5 @@
+alert("yo dude this is the test file where i test stuff and so this may not work sometimes");
+
 window.snake.more_menu = function() {
   window.snake_scheme_epic_cool = window.snake_scheme_epic_cool || { light_squares: '#AAD751', dark_squares:  '#A2D149' };
   window.snake_scheme_epic_cool = window.snake_scheme_epic_cool || { light_squares: '#AAD751', dark_squares:  '#A2D149' };
