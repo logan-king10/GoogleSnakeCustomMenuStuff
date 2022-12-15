@@ -112,6 +112,14 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
   
+    // soslow
+  img = new Image;
+  img.src = 'https://trafficticketteam.com/wp-content/uploads/2015/03/ladydrivingticketteam-resized-6002.png';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
+  
   // bullet
   img = new Image;
   img.src = 'https://github.com/carlgustavh/GoogleSnakeCustomMenuStuffImages/blob/main/Bullet.png?raw=true';
@@ -272,13 +280,14 @@ window.snake.more_menu = function() {
             case 4:  _le = .45;    break;
             case 5:  _le = 1.85;   break;
             case 6:  _le = _soep;  break;
-            case 7:  _le = 3;      break;
-            case 8:  _le = .35;    break;
-            case 9:  _le = .25;    break;
-            case 10: _le = .15;    break;
-            case 11: _le = .05;    break;
-            case 12: _le = 26640;  break;
-            case 13: _le = .00001; break;
+            case 7:  _le = 5;      break;
+            case 8:  _le = 10.00;  break;
+            case 9:  _le = .35;    break;
+            case 10: _le = .25;    break;
+            case 11: _le = .15;    break;
+            case 12: _le = .05;    break;
+            case 13: _le = 26640;  break;
+            case 14: _le = .00001; break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -503,13 +512,14 @@ window.snake.more_menu = function() {
           case 4:  a = .45;    break a;
           case 5:  a = 1.85;   break a;
           case 6:  a = _soep;  break a;
-          case 7:  a = 3;      break a;
-          case 8:  a = .35;    break a;
-          case 9:  a = .25;    break a;
-          case 10: a = .15;    break a;
-          case 11: a = .05;    break a;
-          case 12: a = 26640;  break a;
-          case 13: a = .00001; break a;
+          case 7:  a = 5;      break a;
+          case 8:  a = 10.00;  break a;
+          case 9:  a = .35;    break a;
+          case 10: a = .25;    break a;
+          case 11: a = .15;    break a;
+          case 12: a = .05;    break a;
+          case 13: a = 26640;  break a;
+          case 14: a = .00001; break a;
           default: a = 1;      break a;
         }`)
       );
