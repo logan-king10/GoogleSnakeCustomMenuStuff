@@ -14,6 +14,6 @@ me logan, aka al
 
 ## updates
 12/15/2022 - added a new map on test called long boi bc its long
-\n
+/n
 12/15/2022 - added a new speed called grandma driving speed
 
