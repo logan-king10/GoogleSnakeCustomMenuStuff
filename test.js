@@ -620,7 +620,7 @@ window.snake.more_menu = function() {
           let squareSize = 600 / (${dec.match(/f\.[a-zA-Z0-9_$]{1,8}/)}).width;
           if(squareSize * (${dec.match(/f\.[a-zA-Z0-9_$]{1,8}/)}).height > 530)
             squareSize = 530 / (${dec.match(/f\.[a-zA-Z0-9_$]{1,8}/)}).height;
-          squareSize = squareSize * .98;
+          squareSize = squareSize * .50;
           if(squareSize > 1)squareSize = ~~squareSize;
           (${beeeeeeaniebaby}) >= 3 && (${wa} = squareSize);
           `
