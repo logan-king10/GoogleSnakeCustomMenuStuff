@@ -212,6 +212,12 @@ window.snake.more_menu = function() {
   img.width = 47;
   img.height = 47;
   document.querySelector('#count').appendChild(img);
+  
+  /*--color--*/
+  img.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ4AAAE/CAMAAACAbIq2AAAAP1BMVEX///8AAADs7OxLS0tiYmLZ2dnKysobGxusrKyenp61tbXv7+/AwMBSUlJaWlqoqKj19fWWlpa0tLQ1NTU/Pz/ixoE2AAABM0lEQVR4nO3bS04CURBAUWgFFVDxs/+1OjCO6c5Nup/k3AVUzrQqqd1OkiSt1OvjgL1d/nj7IXvGC+GV8Ep4JbwSXgmvhFfCK+GV8Ep4pcF573N5p+MWTXN5592m3eJNt0fg4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4d0J7zo272nl9i+LeKuHV8Ir4ZXwSnglvBJeCa+EV8Ir4ZXwSoPzPhbxDtPKXRfxfDfj4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4d0Hb/BfoeNho86zeJv1OTbvhBfCK+GV8Ep4JbwSXgmvhFfCK+GV8Eq/a/jXw5h9XxbfYyRJkiRJkiRJkiRJkiRJkvSP+wF9DFNO+Oa7DQAAAABJRU5ErkJggg==';
+  img.width = 47;
+  img.height = 47;
+  document.querySelector('#color').appendChild(img);
 
   /* making do things */
   const scripts = document.getElementsByTagName('script');
