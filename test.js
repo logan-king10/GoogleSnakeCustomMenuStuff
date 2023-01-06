@@ -167,6 +167,13 @@ window.snake.more_menu = function() {
   img.height = 47;
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
+  
+  mg = new Image;
+  img.src = 'https://raw.githubusercontent.com/true-king-al/Google-Snake-hack-menu/main/images/pixil-frame-0%20(2).png';
+  img.width = 47;
+  img.height = 47;
+  img.class = 'DqMRee SsAred';
+  document.querySelector('#speed').appendChild(img);
 
 
   /*--COUNTS--*/
