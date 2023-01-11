@@ -168,6 +168,7 @@ window.snake.more_menu = function() {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
   
+  // super slow to super fast
   mg = new Image;
   img.src = 'https://raw.githubusercontent.com/true-king-al/Google-Snake-hack-menu/main/images/pixil-frame-0%20(2).png';
   img.width = 47;
@@ -302,6 +303,7 @@ window.snake.more_menu = function() {
             case 12: _le = .05;    break;
             case 13: _le = 26640;  break;
             case 14: _le = .00001; break;
+            case 15: _le = 6;      break;
             default: _le = 1;      break;
           }
           ${realTileLength} = ${defaultTileLength} * _le;
@@ -534,6 +536,7 @@ window.snake.more_menu = function() {
           case 12: a = .05;    break a;
           case 13: a = 26640;  break a;
           case 14: a = .00001; break a;
+          case 15: a = 6;      break a;
           default: a = 1;      break a;
         }`)
       );
